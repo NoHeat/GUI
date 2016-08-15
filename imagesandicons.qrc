@@ -1,3 +1,7 @@
 <RCC>
-    <qresource prefix="/Pictures"/>
+    <qresource prefix="/">
+        <file>ImagesAndIcons/chilllogo.PNG</file>
+        <file>ImagesAndIcons/Home.png</file>
+        <file>ImagesAndIcons/groceriespngresized.png</file>
+    </qresource>
 </RCC>

@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Fridge Assist Kit .v2</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="imagesandicons.qrc">
+    <normaloff>:/ImagesAndIcons/chilllogo.PNG</normaloff>:/ImagesAndIcons/chilllogo.PNG</iconset>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -95,6 +99,8 @@
   </layout>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="imagesandicons.qrc"/>
+ </resources>
  <connections/>
 </ui>
