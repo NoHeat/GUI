@@ -1,1 +1,1 @@
-This is a test to learn to use github. 
+This is the repository which will contain all the files related to development of the GUI using Qt Creator. This first commit has two frames. The first window is Home and contains tags to add pictures later on, and a "start" button which when clicked leads the user to the second frame. Functionality still needs to be added in the second frame. <FridgeAssistKit V2>
