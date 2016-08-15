@@ -18,6 +18,8 @@ public:
 private slots:
     void on_WelcomeScreenStartButton_clicked();
 
+    void on_btnCalendar_clicked();
+
 private:
     Ui::WelcomeScreen *ui;
 };

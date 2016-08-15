@@ -11,16 +11,19 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Shopping List</string>
+   <string>Shopping List Menu</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>100</y>
-     <width>241</width>
-     <height>281</height>
+     <x>230</x>
+     <y>130</y>
+     <width>161</width>
+     <height>251</height>
     </rect>
+   </property>
+   <property name="title">
+    <string/>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>

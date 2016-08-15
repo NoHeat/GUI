@@ -1,6 +1,7 @@
 #include "welcomescreen.h"
 #include "ui_welcomescreen.h"
 #include "actionmenu.h"
+#include "mycalendar.h"
 #include <QStyle>
 
 
@@ -42,3 +43,12 @@ void WelcomeScreen::on_WelcomeScreenStartButton_clicked()
     myActionMenu.exec();
 }
 
+
+void WelcomeScreen::on_btnCalendar_clicked()
+{
+    //Calendar goes here
+    MyCalendar myCalendar;
+    myCalendar.setModal(true);
+    myCalendar.exec();
+
+}

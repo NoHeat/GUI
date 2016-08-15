@@ -17,19 +17,22 @@ SOURCES += main.cpp\
     actionmenu.cpp \
     inventorychange.cpp \
     custominput.cpp \
-    shoppinglist.cpp
+    shoppinglist.cpp \
+    mycalendar.cpp
 
 HEADERS  += welcomescreen.h \
     actionmenu.h \
     inventorychange.h \
     custominput.h \
-    shoppinglist.h
+    shoppinglist.h \
+    mycalendar.h
 
 FORMS    += welcomescreen.ui \
     actionmenu.ui \
     inventorychange.ui \
     custominput.ui \
-    shoppinglist.ui
+    shoppinglist.ui \
+    mycalendar.ui
 
 RESOURCES += \
     imagesandicons.qrc
