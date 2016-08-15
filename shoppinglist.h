@@ -15,6 +15,9 @@ public:
     explicit ShoppingList(QWidget *parent = 0);
     ~ShoppingList();
 
+private slots:
+
+
 private:
     Ui::ShoppingList *ui;
 };

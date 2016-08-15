@@ -1,4 +1,4 @@
-<?xml version='1.0'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>InventoryChange</class>
  <widget class="QDialog" name="InventoryChange">
@@ -11,8 +11,34 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Change Inventory</string>
   </property>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>70</y>
+     <width>411</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="plainText">
+    <string>Here we are to show all the database information sorted. This also needs some sort of timer to close the window after x ammount of minutes. I propose after 3-5.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

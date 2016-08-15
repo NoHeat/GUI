@@ -14,13 +14,22 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         welcomescreen.cpp \
-    actionmenu.cpp
+    actionmenu.cpp \
+    inventorychange.cpp \
+    custominput.cpp \
+    shoppinglist.cpp
 
 HEADERS  += welcomescreen.h \
-    actionmenu.h
+    actionmenu.h \
+    inventorychange.h \
+    custominput.h \
+    shoppinglist.h
 
 FORMS    += welcomescreen.ui \
-    actionmenu.ui
+    actionmenu.ui \
+    inventorychange.ui \
+    custominput.ui \
+    shoppinglist.ui
 
 RESOURCES += \
     imagesandicons.qrc
