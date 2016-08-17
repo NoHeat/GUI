@@ -15,13 +15,13 @@ WelcomeScreen::WelcomeScreen(QWidget *parent) :
     ui->WelcomeScreenStartButton->setToolTip("Go to Action Menu.");
     //This is an example of how to add an icon to a button. In general icon extension should be .ico but png works.
     //It is recomended to use .ico because if the window is resized the icon will look good, whereas the picture can look blurry.
-    QIcon icon ("F:/QTprojects/FridgeAssistKitv2/ImagesAndIcons/Home.png");
+    QIcon icon (":/ImagesAndIcons/Home.png");
     ui->WelcomeScreenStartButton->setIcon(icon);
     //This is an example of how to change the font. It can work on buttons and labels, and other widgets.
     QFont font ("Courier");
     ui->WelcomeScreenStartButton->setFont(font);
     //This is an example of how to add a picture to a label
-    QPixmap pix ("F:/QTprojects/FridgeAssistKitv2/ImagesAndIcons/groceriespngresized.png");
+    QPixmap pix (":/ImagesAndIcons/groceriespngresized.png");
     ui->WelcomeScreenPicture1->setPixmap(pix);
     ui->WelcomeScreenPicture1->setAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
 }
