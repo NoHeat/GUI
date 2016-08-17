@@ -24,6 +24,17 @@ WelcomeScreen::WelcomeScreen(QWidget *parent) :
     QPixmap pix (":/ImagesAndIcons/groceriespngresized.png");
     ui->WelcomeScreenPicture1->setPixmap(pix);
     ui->WelcomeScreenPicture1->setAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
+
+
+    //this is an example of simple customization of a button using StyleSheets
+    ui->btnCalendar->setStyleSheet("background:red");
+
+
+
+
+
+
+
 }
 
 WelcomeScreen::~WelcomeScreen()
@@ -37,18 +48,21 @@ void WelcomeScreen::on_WelcomeScreenStartButton_clicked()
     /*On top is the method that gives functionality to the start button in the first window,
      * upon clicking it an instance of the second window is created. Setting Modal to true means
      * the user can only interact with that window when they click the button. */
-    ActionMenu myActionMenu;
-    myActionMenu.setModal(true);
+    /*This code was refactored to use pointers as explained in main.cpp (look there). With pointers we
+     * can use stylesheets and many other functionality*/
 
-    myActionMenu.exec();
+    ActionMenu *myActionMenu = new ActionMenu;
+    myActionMenu->setModal(true);
+    myActionMenu->setStyleSheet("background-color:orange");
+    myActionMenu->exec();
 }
 
 
 void WelcomeScreen::on_btnCalendar_clicked()
 {
     //Calendar goes here
-    MyCalendar myCalendar;
-    myCalendar.setModal(true);
-    myCalendar.exec();
+    MyCalendar *myCalendar = new MyCalendar;
+    myCalendar->setModal(true);
+    myCalendar->exec();
 
 }

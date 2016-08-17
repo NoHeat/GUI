@@ -3,5 +3,7 @@
         <file>ImagesAndIcons/chilllogo.PNG</file>
         <file>ImagesAndIcons/Home.png</file>
         <file>ImagesAndIcons/groceriespngresized.png</file>
+        <file>ImagesAndIcons/fru_fin.png</file>
+        <file>ImagesAndIcons/vegg_fin.png</file>
     </qresource>
 </RCC>

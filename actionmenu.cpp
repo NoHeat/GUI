@@ -37,5 +37,8 @@ void ActionMenu::on_pushButton_3_clicked()
     //Shopping list button from Action Menu which takes to shopping list window
     ShoppingList shoppingListVar;    //this is the reference variable
     shoppingListVar.setModal(true);
+
+
+
     shoppingListVar.exec();
 }

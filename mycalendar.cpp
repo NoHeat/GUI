@@ -6,6 +6,7 @@ MyCalendar::MyCalendar(QWidget *parent) :
     ui(new Ui::MyCalendar)
 {
     ui->setupUi(this);
+
 }
 
 MyCalendar::~MyCalendar()
