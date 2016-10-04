@@ -53,7 +53,7 @@ void WelcomeScreen::on_WelcomeScreenStartButton_clicked()
 
     ActionMenu *myActionMenu = new ActionMenu;
     myActionMenu->setModal(true);
-    myActionMenu->setStyleSheet("background-color:orange");
+    myActionMenu->setStyleSheet("background-color:#626065");
     myActionMenu->exec();
 }
 

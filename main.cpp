@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
      */
 
     WelcomeScreen *w = new WelcomeScreen;
-    w->setStyleSheet("background-color:orange;");
+    w->setStyleSheet("background-color:#626065;");
     w->show();
 
 

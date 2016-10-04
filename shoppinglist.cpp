@@ -10,7 +10,7 @@ ShoppingList::ShoppingList(QWidget *parent) :
        // shopList->setStyleSheet("background-color:blue");
        // shopList->show();
 
-    ui->btn_Add->setStyleSheet("Background:orange");
+    ui->btn_Add->setStyleSheet("Background:#626065");
 
 }
 
